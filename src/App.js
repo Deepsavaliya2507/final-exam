@@ -146,14 +146,17 @@ function App() {
         </button> */}
       </div>
 
-      <ul className="flex grid grid-cols-4">
+      <ul className="w-[1360px] container mx-auto grid grid-cols-4">
         {data.map((item) => (
           <li key={item.id}>
             <div>
               <div className="pt-12 pb-12 flex justify-around border-black">
-                <div className="max-w-sm relative rounded mr-4 w-1/4 w-96 overflow-hidden shadow-lg widthsize">
+                <div className="max-w-sm relative rounded mr-4 w-96 overflow-hidden shadow-lg bg-white py-[20px]">
                   <div className="grid justify-items-center">
-                    <img src={item.image} className="rounded imgchange" />
+                    <img
+                      src={item.image}
+                      className="w-[200px] h-[200px] rounded"
+                    />
                   </div>
                   <span className="inline-block absolute top-0 right-0 text-sm font-semibold"></span>
                   <div className="px-6 py-4">
@@ -195,14 +198,17 @@ function App() {
         ))}
       </ul>
       <h2>Add to Cart Product lists</h2>
-      <ul className="flex grid grid-cols-4">
+      <ul className="w-[1360px] container mx-auto grid grid-cols-4">
         {data.map((item) => (
           <li key={item.id}>
             <div>
               <div className="pt-12 pb-12 flex justify-around border-black">
-                <div className="max-w-sm relative rounded mr-4 w-1/4 w-96 overflow-hidden shadow-lg widthsize">
+                <div className="max-w-sm relative rounded mr-4 w-96 overflow-hidden shadow-lg bg-white py-[20px]">
                   <div className="grid justify-items-center">
-                    <img src={item.image} className="rounded imgchange" />
+                    <img
+                      src={item.image}
+                      className="w-[200px] h-[200px] rounded"
+                    />
                   </div>
                   <span className="inline-block absolute top-0 right-0 text-sm font-semibold"></span>
                   <div className="px-6 py-4">
