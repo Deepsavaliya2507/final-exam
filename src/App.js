@@ -137,6 +137,13 @@ function App() {
         >
           Add Product
         </button>
+        <input
+          type="file"
+          name="uploader"
+          id="uploader"
+          accept="image/*"
+          capture
+        />
         {/* <button
           className="btn_like"
           onClick={(item) => handleLike(item.id, !item.like)}
